@@ -3,6 +3,10 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class PointStoreService {
 
-  constructor() { }
+  available: Number = 50;
+  received: Number = 0;
+
+  constructor() {
+  }
 
 }
