@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-give-reward',
+  selector: 'give-reward',
   templateUrl: './give-reward.component.html',
   styleUrls: ['./give-reward.component.css']
 })
