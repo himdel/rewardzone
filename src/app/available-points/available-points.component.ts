@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PointStoreService } from '../point-store.service';
 
 @Component({
   selector: 'available-points',
@@ -6,8 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./available-points.component.css']
 })
 export class AvailablePointsComponent implements OnInit {
+  points: PointStoreService;
 
-  constructor() { }
+  constructor(points: PointStoreService) {
+    this.points = points;
+  }
 
   ngOnInit() {
   }

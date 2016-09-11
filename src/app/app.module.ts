@@ -7,6 +7,9 @@ import { AppComponent } from './app.component';
 import { AvailablePointsComponent } from './available-points/available-points.component';
 import { GiveRewardComponent } from './give-reward/give-reward.component';
 
+import { PointStoreService } from './point-store.service';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +21,9 @@ import { GiveRewardComponent } from './give-reward/give-reward.component';
     FormsModule,
     HttpModule,
   ],
-  providers: [],
+  providers: [
+    PointStoreService,
+  ],
   bootstrap: [
     AppComponent,
   ],
