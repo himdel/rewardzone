@@ -4,10 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { AvailablePointsComponent } from './available-points/available-points.component';
+import { GiveRewardComponent } from './give-reward/give-reward.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AvailablePointsComponent,
+    GiveRewardComponent
   ],
   imports: [
     BrowserModule,
