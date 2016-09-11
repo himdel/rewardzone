@@ -11,14 +11,16 @@ import { GiveRewardComponent } from './give-reward/give-reward.component';
   declarations: [
     AppComponent,
     AvailablePointsComponent,
-    GiveRewardComponent
+    GiveRewardComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [
+    AppComponent,
+  ],
 })
 export class AppModule { }
